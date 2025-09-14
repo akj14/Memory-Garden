@@ -1,0 +1,5 @@
+{
+  "name": "Memory Garden",
+  "description": "A digital garden where you can plant flowers, either drawn by you or chosen from a selection, and attach a cherished memory to them. Hover over the flowers in the garden to see the memories bloom.",
+  "requestFramePermissions": []
+}
