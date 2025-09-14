@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Garden } from './components/Garden';
-import { CreationModal } from './components/CreationModal';
-import { INITIAL_FLOWERS, PREMADE_FLOWERS } from './constants';
-import type { FlowerType, FlowerPosition } from './types';
+import { Garden } from './components/Garden.tsx';
+import { CreationModal } from './components/CreationModal.tsx';
+import { INITIAL_FLOWERS, PREMADE_FLOWERS } from './constants.tsx';
+import type { FlowerType, FlowerPosition } from './types.ts';
 
 // Prepare initial flowers data by resolving image sources
 const initialFlowersData: FlowerType[] = INITIAL_FLOWERS.map((f, index) => {

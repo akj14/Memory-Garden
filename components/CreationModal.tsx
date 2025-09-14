@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
-import { FlowerSelector } from './FlowerSelector';
-import { DrawingCanvas } from './DrawingCanvas';
-import { MemoryInput } from './MemoryInput';
-import { PREMADE_FLOWERS } from '../constants';
+import { FlowerSelector } from './FlowerSelector.tsx';
+import { DrawingCanvas } from './DrawingCanvas.tsx';
+import { MemoryInput } from './MemoryInput.tsx';
+import { PREMADE_FLOWERS } from '../constants.tsx';
 
 interface CreationModalProps {
   onClose: () => void;

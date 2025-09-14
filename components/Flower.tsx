@@ -1,5 +1,5 @@
 import React, { useRef, useState, useCallback } from 'react';
-import type { FlowerType, FlowerPosition } from '../types';
+import type { FlowerType, FlowerPosition } from '../types.ts';
 
 interface FlowerProps {
   flower: FlowerType;

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Flower } from './Flower';
-import type { FlowerType, FlowerPosition } from '../types';
+import { Flower } from './Flower.tsx';
+import type { FlowerType, FlowerPosition } from '../types.ts';
 
 interface GardenProps {
   flowers: FlowerType[];
